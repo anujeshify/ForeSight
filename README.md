@@ -62,6 +62,7 @@ ForeSight/
 │
 ├── Extras/
 │   ├── ForeSightExample.mp4
+│   ├── ForeSightExample2.mp4
 │   ├── Output1.png
 │   ├── Output2.png
 │   ├── Output3.png
@@ -165,7 +166,11 @@ An example simulation with ForeSight would involve the following steps:
 3. **Sales Analysis**: Visualize sales trends across different categories, identifying top-performing products and sales patterns.
 4. **Demand Forecasting**: Utilize forecasting models to predict future sales trends, providing insights for inventory management and sales planning.
 
-![Simulation Example](Extras/ForeSightExample.mp4)
+
+
+https://github.com/user-attachments/assets/88c02aba-c346-4525-b118-7600f7016380
+
+
 
 The platform then displays these insights interactively, allowing businesses to explore and make data-driven decisions.
 
