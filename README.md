@@ -90,7 +90,7 @@ ForeSight/
 ├── README.md
 ├── app.py
 ├── forecasting_arima.ipynb
-├── foresight1.ipynb
+├── foresight_test.ipynb
 ├── requirements.txt
 └── streamlit_app.py
 ```
