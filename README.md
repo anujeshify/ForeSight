@@ -54,25 +54,44 @@ The repository is organized as follows:
 ```
 ForeSight/
 │
+├── Datasets/
+│   ├── category_avg_net_sentiments.csv
+│   ├── ranked_products_with_net_sentiments.csv
+│   ├── test_dataset_1.csv
+│   └── test_dataset_2.csv
+│
+├── Extras/
+│   ├── ForeSightExample.mp4
+│   ├── Output1.png
+│   ├── Output2.png
+│   ├── Output3.png
+│   ├── Output4.png
+│   └── test
+│
+├── Jupyter/
+│   ├── Product_Review_Sentiment_Analysis_Jupyter.ipynb
+│   ├── category_avg_net_sentiments.csv
+│   ├── products_sales_reviews_diverse .csv
+│   ├── ranked_products_with_net_sentiments.csv
+│   └── test.txt
+│
+├── Assets/
+│   └── ForeSight.png
+│
 ├── Views/
 │   ├── category_analysis.py
 │   ├── demand_forecasting.py
 │   ├── homepage.py
 │   └── summary.py
 │
-├── Assets/
-│   └── [Files used for the Streamlit website, including the ForeSight logo]
-│
-├── Jupyter/
-│   └── Walmart_Sparkathon_Reviews_Sentiment_Analysis.ipynb
-│
-├── Datasets/
-│   └── product_sales_reviews_diverse.csv
-│
+├── .gitattributes
+├── ForeSight_Reviews_Sentiment_Analysis.ipynb
+├── README.md
 ├── app.py
 ├── forecasting_arima.ipynb
-├── README.md
-└── requirements.txt
+├── foresight1.ipynb
+├── requirements.txt
+└── streamlit_app.py
 ```
 
 - **Views**: Contains Python scripts responsible for different pages of the Streamlit application.
@@ -146,6 +165,8 @@ An example simulation with ForeSight would involve the following steps:
 3. **Sales Analysis**: Visualize sales trends across different categories, identifying top-performing products and sales patterns.
 4. **Demand Forecasting**: Utilize forecasting models to predict future sales trends, providing insights for inventory management and sales planning.
 
+![Simulation Example](Extras/ForeSightExample.mp4)
+
 The platform then displays these insights interactively, allowing businesses to explore and make data-driven decisions.
 
 ---
@@ -157,6 +178,11 @@ The outputs of the ForeSight platform are displayed in an interactive dashboard 
 - **Sentiment Analysis**: Graphs and visualizations showcasing customer sentiment towards products.
 - **Sales Analysis**: Insights into sales trends, including best-selling products, seasonal trends, and category-wise performance.
 - **Demand Forecasting**: Forecasted sales trends displayed as graphs to help businesses plan inventory and marketing strategies.
+
+![Output1](Extras/Output1.png)
+![Output2](Extras/Output2.png)
+![Output3](Extras/Output3.png)
+![Output4](Extras/Output4.png)
 
 These insights are presented through an easy-to-navigate interface, enabling users to drill down into details for strategic decision-making.
 
